@@ -13,7 +13,7 @@ The returns will be in JSON format.
 <br>
 To get a list of unique IP Addresses(With Request Count) from Log file : `http://localhost:5000/uniqueIPAddresses`
 <br><br>
-To get a list of Log Activities associated with a particular IP Address : `http://localhost:5000/getIPActivity/<IP Address>` <br>
+To get a list of Log Activities associated with a particular IP Address(With Location from Geo-IP API) : `http://localhost:5000/getIPActivity/<IP Address>` <br>
 A sample call : `http://localhost:5000/getIPActivity/52.122.3.64`
 <br><br>
 To get a list of Anormalies from log file : `http://localhost:5000/detectedAnormalies` 
